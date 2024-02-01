@@ -10,9 +10,9 @@
 
 // Desafio 02 (Console.log)
 
-let salario = 10000
-let scoreDeCredito = 800
-let idade = 33
+let salario = 5000
+let scoreDeCredito = 700
+let idade = 17
 
 console.log(salario >= 5000 && scoreDeCredito >= 700 && idade >= 18)
 
