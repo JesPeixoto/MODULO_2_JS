@@ -7,3 +7,5 @@ const nomesFiltrados = nomes.filter(nome => nome.length >= 5);
 
 console.log('Nomes com 5 letras ou mais:', nomesFiltrados);
 
+
+
