@@ -11,5 +11,4 @@ for (let i = 0; i < notasAluno.length; i++) {
 }
 
 const media = somaNotasAluno / notasAluno.length;
-
 console.log("A média das notas é:", media)
