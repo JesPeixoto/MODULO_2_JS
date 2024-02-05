@@ -1,5 +1,3 @@
-
-
 // Desafio 03
 
 const matriz = [
