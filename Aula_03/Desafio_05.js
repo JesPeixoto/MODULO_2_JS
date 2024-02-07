@@ -7,7 +7,10 @@
     cidade: "Rio de Janeiro"
  }
 
- const maiorIdade = pessoa.maior >= 18;
+ // Criação de uma nova variável para aplicar a condição da idade
+ const maiorIdade = pessoa.idade >= 18;
+ 
+ // Criação de uma nova variável para aplicar a condição da cidade 
  const notSaoPaulo = pessoa.cidade !== "São Paulo";
 
  console.log(pessoa);
