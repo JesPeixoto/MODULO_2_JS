@@ -1,14 +1,8 @@
 
-// Desafio 05
+const aluno = {
+    nome: "Leila",
+    nota1: 9,
+    nota2: 10
+}; 
 
- const pessoa = {
-    nome: "Jessica",
-    idade: 33, 
-    cidade: "Rio de Janeiro"
- }
-
- const maiorIdade = pessoa.maior >= 18;
- const notSaoPaulo = pessoa.cidade !== "São Paulo";
-
- console.log(maiorIdade);
- console.log(notSaoPaulo);
+const media = aluno.nota1 + aluno.nota2 / 2
