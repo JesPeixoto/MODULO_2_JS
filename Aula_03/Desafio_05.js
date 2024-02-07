@@ -10,5 +10,6 @@
  const maiorIdade = pessoa.maior >= 18;
  const notSaoPaulo = pessoa.cidade !== "São Paulo";
 
+ console.log(pessoa);
  console.log(maiorIdade);
  console.log(notSaoPaulo);
