@@ -1,4 +1,6 @@
 
+// Desafio 04
+
 const dicionarioDeSinonimos = new Map();
 
 dicionarioDeSinonimos.set("Feliz", ["Alegre", "Contente", "Satisfeito"]);
