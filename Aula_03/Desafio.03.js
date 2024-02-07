@@ -12,4 +12,6 @@ let dicionarioDeSinonimos = {
     bom: ["ótimo", "excelente", "maravilhoso"]
 };
 
-console.log(dicionarioDeSinonimos.bom);
+console.log(dicionarioDeSinonimos.feliz);
+console.log(dicionarioDeSinonimos.triste);
+console.log(dicionarioDeSinonimos.triste);

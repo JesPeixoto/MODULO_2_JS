@@ -5,3 +5,5 @@ let dicionarioDeSinonimos = {
 };
 
 console.log(dicionarioDeSinonimos.feliz);
+console.log(dicionarioDeSinonimos.triste);
+console.log(dicionarioDeSinonimos.triste);
