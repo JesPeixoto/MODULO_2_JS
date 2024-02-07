@@ -1,5 +1,7 @@
-  const listaZerada = []
+let dicionarioDeSinonimos = {
+    feliz: ["alegre", "contente", "satisfeito"],
+    triste: ["melancólico", "abatido", "deprimido"],
+    bom: ["ótimo", "excelente", "maravilhoso"]
+};
 
-    listaZerada.push = listaContatos = [ Aline, Palo]
-
-    console.log(listaContatos)
+console.log(dicionarioDeSinonimos.feliz);
