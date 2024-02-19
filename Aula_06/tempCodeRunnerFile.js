@@ -1,6 +1,10 @@
-const frutas = ["banana", "uva", "laranja", "kiwi", "amora"];
+const valores = {
+    valor1: 10,
+    valor2: 20,
+    valor3: 30,
+    valor4: 40
+}; 
 
-for (const fruta of frutas) {
-    console.log(fruta)
-    
+for (const propriedade in valores) {
+    console.log(propriedade + ´ :´ + valores[propriedade]);
 }
