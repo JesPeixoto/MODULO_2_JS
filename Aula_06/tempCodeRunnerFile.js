@@ -1,10 +1,5 @@
-const valores = {
-    valor1: 10,
-    valor2: 20,
-    valor3: 30,
-    valor4: 40
-}; 
+const numeros = [1,2,3,4,5,6,7,8,9,10]; 
 
-for (const propriedade in valores) {
-    console.log(propriedade + ´ :´ + valores[propriedade]);
-}
+const busca = numeros.find((numero) => numero === 5); 
+
+console.log(busca); 
