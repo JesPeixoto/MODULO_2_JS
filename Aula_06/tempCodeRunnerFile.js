@@ -1,7 +1,17 @@
-Achei o número 7 */
-
-const numeros = [1,2,3,4,5,6,7,8,9,10]; 
-
-const busca = numeros.find((numero) => numero === 5); 
-
-console.logi(´Número ${busca} encontrado); 
+function simuladorRolagemDeDados(quantidadeDados) {
+    let soma = 0;
+    let rolagens = [];
+  
+    for (let i = 0; i < quantidadeDados; i++) {
+      let resultado = Math.floor(Math.random() * 6) + 1;
+      rolagens.push(resultado);
+      soma += resultado;
+    }
+  
+    console.log("Rolagens individuais:", rolagens.join(", "));
+    console.log("Soma dos valores:", soma);
+  }
+  
+  let quantidadeDados = parseInt(prompt("Quantidade de dados de 6 lados:"));
+  simuladorRolagemDeDados(quantidadeDados);
+  
