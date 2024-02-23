@@ -1,5 +1,5 @@
 
-// Super desafio 01
+// Super desafio 01 
 
 // Fazer um simulador de rolagem de dados, que receba como input N
 // dados de 6 lados e mostre as rolagens individuais e a soma dos valores

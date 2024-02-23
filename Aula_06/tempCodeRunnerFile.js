@@ -1,17 +1,13 @@
-function simuladorRolagemDeDados(quantidadeDados) {
-    let soma = 0;
-    let rolagens = [];
+function lancarDados(numeroDados, numeroLados) {
+    let rolls = [];
+    let sum = 0;
   
-    for (let i = 0; i < quantidadeDados; i++) {
-      let resultado = Math.floor(Math.random() * 6) + 1;
-      rolagens.push(resultado);
-      soma += resultado;
+    for (let i = 0; i < numeroDados; i++) {
+      let roll = Math.floor(Math.random() * numeroLados) + 1;
+      rolls.push(roll);
+      sum += roll;
     }
-  
-    console.log("Rolagens individuais:", rolagens.join(", "));
-    console.log("Soma dos valores:", soma);
+    console.log(`Rolls: ${rolls.join(", ")}`);
+    console.log(`Sum: ${sum}`);
   }
-  
-  let quantidadeDados = parseInt(prompt("Quantidade de dados de 6 lados:"));
-  simuladorRolagemDeDados(quantidadeDados);
-  
+  lancarDados(2, 9);
